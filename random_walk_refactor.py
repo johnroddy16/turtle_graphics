@@ -9,10 +9,7 @@ alex = t.Turtle()
 alex.pensize(10)  # larger pen size 
 alex.speed(0)  # 0 is the fastest speed, could also write 'fastest' 
 
-# colors = ['BlueViolet', 'powder blue', 'cadet blue', 'chartreuse', 'dark slate gray', 'DarkSeaGreen', 'DeepPink2', 'coral4', 'LightCyan1', 'LightGreen',
-#           'LightSkyBlue2', 'medium spring green', 'MediumOrchid3', 'PaleGreen']  # leave the colors the same 4 now 
-
-# Set color mode to RGB
+# set color mode to RGB
 t.colormode(255)
 
 # changing the way we create random colors with a function that returns r, g, b tuple:
