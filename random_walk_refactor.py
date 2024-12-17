@@ -19,6 +19,11 @@ def main():
         alex.color(random_color()) 
         alex.setheading(random.choice(directions))
         alex.forward(20)
+        
+    screen = t.Screen()
+    screen.title('random walk')
+    screen.bgcolor('skyblue')
+    screen.exitonclick()
     
 def random_color():
     r = random.randint(0, 255)
@@ -28,13 +33,3 @@ def random_color():
 
 if __name__ == '__main__':
     main() 
-
-
-
-
-
-
-screen = t.Screen()
-screen.title('random walk')
-screen.bgcolor('skyblue')
-screen.exitonclick()
